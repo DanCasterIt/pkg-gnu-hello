@@ -1,3 +1,9 @@
+hello (2.10-2ubuntu5) jammy; urgency=low
+
+  * Canonical assignment patch: debian/patch/canonical-assignment.patch
+
+ -- Daniele Castro <danielecastro@hotmail.it>  Wed, 30 Aug 2023 13:54:44 +0000
+
 hello (2.10-2ubuntu4) jammy; urgency=medium
 
   * No-change rebuild for ppc64el baseline bump.

@@ -1,0 +1,20 @@
+Description: Canonical assignment patch
+
+* Modify the GNU hello pakage according to the Canonical's assignment requests
+
+Author: Daniele Castro <danielecastro@hotmail.it>
+Last-Update: 2023-08-30 
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: hello-2.10/testing.sh
+===================================================================
+--- /dev/null
++++ hello-2.10/testing.sh
+@@ -0,0 +1,7 @@
++#!/bin/sh
++
++set -e
++
++>&2 echo "This is a test from Daniele Castro"
++
++exit 0
